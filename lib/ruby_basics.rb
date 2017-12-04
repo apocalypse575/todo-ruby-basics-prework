@@ -6,11 +6,8 @@ def assign_variable(value)
 name = value
 end
 
-#rspec ./spec/ruby_basics_spec.rb:17 # ruby
-#assign_variable takes an argument of a persons name and assign it to a variable name
-
-def argue
-
+def argue(value)
+return value
 end
 
 def greeting
